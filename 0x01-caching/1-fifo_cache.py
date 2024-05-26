@@ -23,6 +23,7 @@ class FIFOCache(BaseCaching):
             print("DISCARD:{}".format(fk))
 
     def get(self, key):
+        """retrives value """
         if key is None:
             return
         return self.cache_data.get(key)
