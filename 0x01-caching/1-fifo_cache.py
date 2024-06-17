@@ -27,4 +27,4 @@ class FIFOCache(BaseCaching):
         """retrives value """
         if key is None:
             return
-        return self.cache_data.get(key)
+        return self.cache_data.get(key, None)
