@@ -5,7 +5,6 @@ from base_caching import BaseCaching
 from collections import OrderedDict
 
 
-
 class MRUCache(BaseCaching):
     """object that allows storing and
     retrieving items from a dictionary with an MRU
